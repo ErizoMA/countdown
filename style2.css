@@ -1,0 +1,50 @@
+@import url("https://fonts.googleapis.com/css2?family=Pattaya&display=swap");
+* {
+  box-sizing: border-box;
+  padding: 0;
+  margin: 0;
+}
+:root {
+  --font: "Pattaya", sans-serif;
+}
+
+body {
+  background-image: url(./background-2.jpg);
+  background-size: cover;
+  background-repeat: no-repeat;
+  min-height: 100vh;
+  font-family: var(--font);
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+}
+
+h1 {
+  font-size: 4.5rem;
+  text-align: center;
+  color: white;
+}
+p {
+  font-size: 1.5rem;
+  line-height: 1;
+  text-align: center;
+  color: #accdec;
+}
+
+.countdown {
+  background-color: transparent;
+  width: 70%;
+  padding: 1rem;
+}
+.countdown div {
+  background: transparent;
+  backdrop-filter: blur(2px);
+  margin: 1rem;
+  padding: 0 1rem;
+}
+
+div p:first-child {
+  color: rgb(229, 149, 149);
+  font-size: 2.5rem;
+}

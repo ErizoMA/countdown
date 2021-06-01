@@ -33,6 +33,7 @@ p {
   height: auto;
   /* background-color: blue; */
   border: 2px solid;
+  border-radius: 30px;
   min-width: 480px;
   padding: 20px;
 }
@@ -58,6 +59,7 @@ p {
   height: 70vh;
   margin-bottom: 20px;
   text-align: center;
+  border-radius: 30px;
 }
 
 @media (min-width: 480px) {
