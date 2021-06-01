@@ -1,0 +1,72 @@
+@import url("https://fonts.googleapis.com/css2?family=Pattaya&display=swap");
+
+*,
+*::after,
+*::before {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+}
+
+:root {
+  --font: "Pattaya", sans-serif;
+}
+
+body {
+  font-size: 20px;
+  font-family: var(--font);
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  min-height: 100vh;
+}
+
+p {
+  color: white;
+  font-size: 35px;
+}
+
+/* Container */
+.container {
+  width: 85%;
+  height: auto;
+  /* background-color: blue; */
+  border: 2px solid;
+  min-width: 480px;
+  padding: 20px;
+}
+
+/* Title */
+
+.title {
+  text-align: center;
+  /* margin-bottom: 50px; */
+}
+
+/* Countdown */
+.countdown {
+  background-image: url("background.jpg");
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: center center;
+  /* background-color: black; */
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  height: 70vh;
+  margin-bottom: 20px;
+  text-align: center;
+}
+
+@media (min-width: 480px) {
+  .countdown {
+    flex-direction: row;
+    gap: 10px;
+  }
+
+  p {
+    font-size: 30px;
+  }
+}
